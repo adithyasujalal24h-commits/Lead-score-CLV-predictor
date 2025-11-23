@@ -101,8 +101,14 @@ if st.sidebar.button("Predict Lead & CLV"):
 
 # ------------------ APP FOOTER ------------------
 st.markdown("""
-<style>
-footer {visibility: hidden;}
-</style>
-""")
-st.markdown("Created by **Your Name** | B2B AI Marketing App")
+<div style="
+    text-align: center;
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-top: 40px;
+    padding: 10px;
+    border-top: 1px solid #e6e6e6;
+">
+Created by <b>Adithya Sujalal</b> | <i>B2B AI Marketing App</i>
+</div>
+""", unsafe_allow_html=True)
